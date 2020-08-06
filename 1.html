@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>HTML</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+            function button()
+            {
+                alert("뒤로가기 실행");
+                history.back();
+            }
+            function page2()
+            {
+                location.href = "2.html";
+                //history.go('2.html');
+            }
+        </script>
+        <h1>여긴 HTML</h1>
+        <form>
+            <input type = 'button' value = '다음페이지' onclick = 'page2()'>
+            <input type = 'button' value= '뒤로가기' onclick = 'button()'>
+        </form>
+    </body>
+</html>
