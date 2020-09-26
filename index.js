@@ -32,7 +32,7 @@ function sum()
    
     return _sum;
 }
-alert('result : ' + sum(1,2,3,4));
+//alert('result : ' + sum(1,2,3,4));
 
 
 //생성자함수는 구분을 위해서 앞글자를 대문자로한다.
